@@ -1,0 +1,218 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.header_name {
+  text-align: center;
+  padding-bottom: 10px;
+  box-shadow: 0 8px 6px -6px rgba(77, 77, 77, 0.75);
+}
+
+.ul_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  grid-gap: 1.8rem;
+}
+
+.li_list {
+  list-style-type: none;
+  box-shadow: 0px 0px 10px 0px rgba(77, 77, 77, 0.75);
+  width: 300px;
+  height: 380px;
+  text-align: center;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.li_list_img {
+  height: 100px;
+  width: 100px;
+}
+
+.li_list_button {
+  background-color: #4CAF50;
+  width: 100%;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  position: absolute;
+  bottom: 0;
+  /* right: 0; */
+  left: 0;
+}
+
+.li_list_button:hover { 
+  transform: scale(1.1); 
+}
+
+.li_list_description {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.basket {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 400px;
+  border: rgb(120, 120, 120) 1px solid;
+  text-align: left;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.li_basket p {
+  font-weight: bold;
+  margin: 2px;
+}
+
+.li_basket button {
+  font-weight: bold;
+  display: inline;
+}
+
+.li_basket_row_wraper {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.li_basket_row_column {
+  text-align: left;
+  /* text-align: center; */
+  /* flex: 50%; */
+  /* padding: 16px; */
+  height: auto;
+  width: 300px;
+}
+
+.li_basket_row_column button {
+  background-color: white; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.li_basket_row_column button {
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+.li_basket_row_column button:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.total-price-wraper {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1em;
+  margin-top: 40px;
+  /* border: #f44336 1px solid; */
+}
+
+.filter_wrapper {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  padding-bottom: 15px;
+  width: 400px;
+  border-bottom: rgb(120, 120, 120) 1px solid;
+  text-align: left;
+}
+
+.filter {
+  margin-left: 10px;
+}
+
+.sort {
+  margin-left: 40px;
+}
+
+.App {
+	text-align: center;
+	color: Green;
+}
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.li_basket {
+  list-style-type: none;
+}
